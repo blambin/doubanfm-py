@@ -5,6 +5,8 @@ import urllib2
 import sys,urllib
 import re,json,os
 
+#---顯示logo---begin---
+
 def printheader(*args):
   print "*******************"
   print "* douban Radio * "
@@ -14,6 +16,8 @@ def printheader(*args):
   return
 
 printheader()
+#---顯示logo---end---
+
 
 #---循環運行下載回來的歌單--begin---
 while True:
